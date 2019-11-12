@@ -21,7 +21,7 @@
     "clean:examples:localvideosnapshot": "rimraf examples/localvideosnapshot/public/index.js examples/localvideosnapshot/public/helpers.js",
     "clean:examples:mediadevices": "rimraf examples/mediadevices/public/index.js examples/mediadevices/public/helpers.js",
     "clean:quickstart": "rimraf quickstart/public/index.js",
-    "start": "npm i npm-run-all@4.0.2 rimraf browserify copyfiles && npm i rimraf -g && npm run clean && npm run build && node server"
+    "start": "npm i npm-run-all@4.0.2 rimraf browserify copyfiles && npm npm-run-all@4.0.2 i rimraf browserify copyfiles -g && npm run clean && npm run build && node server"
   },
   "repository": {
     "type": "git",
